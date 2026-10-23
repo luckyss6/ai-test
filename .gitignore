@@ -1,0 +1,15 @@
+# 编译产物
+/astock
+/astock.exe
+/dist/
+*.exe
+
+# 日志
+*.log
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 说明：web/data/ 下的 latest.json 与 history/ 会被提交，
+# 用于 GitHub Pages 展示与数据留档，请勿忽略。

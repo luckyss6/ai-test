@@ -1,0 +1,136 @@
+:root {
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", "Microsoft YaHei", sans-serif;
+  background: #0b1220;
+  color: #e2e8f0;
+}
+
+header {
+  padding: 24px 28px 8px;
+}
+
+header h1 {
+  margin: 0 0 6px;
+  font-size: 24px;
+}
+
+header p {
+  margin: 0;
+  color: #64748b;
+  font-size: 13px;
+}
+
+main {
+  padding: 8px 28px 40px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.panel {
+  background: #0f172a;
+  border: 1px solid #1e293b;
+  border-radius: 12px;
+  padding: 16px 18px;
+  margin-top: 18px;
+}
+
+.panel h2 {
+  margin: 0 0 12px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.table-wrap {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+th,
+td {
+  padding: 8px 10px;
+  text-align: right;
+  white-space: nowrap;
+}
+
+th {
+  color: #64748b;
+  font-weight: 500;
+  border-bottom: 1px solid #1e293b;
+}
+
+th:nth-child(1),
+td:nth-child(1),
+th:nth-child(2),
+td:nth-child(2) {
+  text-align: left;
+}
+
+tbody tr {
+  cursor: pointer;
+}
+
+tbody tr:hover {
+  background: #16233a;
+}
+
+tbody tr.active {
+  background: #1e293b;
+}
+
+.up {
+  color: #f87171;
+}
+
+.down {
+  color: #34d399;
+}
+
+.flat {
+  color: #94a3b8;
+}
+
+.mono {
+  font-variant-numeric: tabular-nums;
+}
+
+select {
+  background: #1e293b;
+  color: #e2e8f0;
+  border: 1px solid #334155;
+  border-radius: 6px;
+  padding: 4px 8px;
+}
+
+canvas {
+  width: 100%;
+  border-radius: 8px;
+  display: block;
+}
+
+.hint {
+  color: #64748b;
+  font-size: 12px;
+  margin: 10px 0 0;
+}
+
+footer {
+  color: #475569;
+  font-size: 12px;
+  text-align: center;
+  padding: 16px;
+}
